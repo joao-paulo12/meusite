@@ -438,21 +438,21 @@ footer{
         font-size: 60%;
     }
     .orcamento-wrapper{
-        height: 75vh;
+        height: 65vh;
         width: 90%;
     }
     .sessao-orcamento{
-        height: 100vh;
+        height: 75vh;
     }
     .contato-right{
         position: absolute;
         top: 1250px;
         right: 10px;
         width: 50%;
-        height: 60vh;
+        height: 50vh;
     }
     .sessao-contato{
-        height: 100vh;
+        height: 90vh;
     }
     .habilidade:nth-child(4){
         grid-column: 1 / 12;
