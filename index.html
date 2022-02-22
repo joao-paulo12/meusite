@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <title>João Paulo</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="hamburguer">
+            <div class="linha" id="linha1"></div>
+            <div class="linha" id="linha2"></div>
+            <div class="linha" id="linha3"></div>
+        </div> <!--hamburguer-->
+        <header>
+            <div class="img-wrapper">
+                <img src="imagens/fundo.jpg" alt="Background">
+            </div> <!--img-wrapper-->
+            <div class="nome">
+                <h1>Freelancer Front-end</h1>
+                <p>João Paulo</p>
+            </div>
+        </header>
+        <aside class="outromenu">
+            <nav>
+                <ul class="menu">
+                    <li class="itens"><a href="#" class="links">Home</a></li>
+                    <li class="itens"><a href="#habilidades" class="links">Habilidades</a></li>
+                    <li class="itens"><a href="#contato" class="links">Contato</a></li>
+                    <li class="itens"><a href="#orcamento" class="links">Orçamento</a></li>
+                </ul> <!--menu-->
+            </nav>
+            <div class="redessociais">
+                <a href="https://www.instagram.com/joao_pauload/" target="_blank"><img src="imagens/intagram.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-b2914822b/" target="_blank"><img src="imagens/linkedin.png" alt="Linkedin"></a>
+                <!--<a href="#"><img src="imagens/github.png" alt="GitHub"></a>-->
+            </div>
+        </aside> <!--outromenu-->
+    </div> <!--container-->
+
+    <section class="sessao-habilidades" id="habilidades">
+        <div class="sessao-header">
+            <h1>Habilidades</h1>
+        </div>
+        <div class="habilidades">
+            <div class="habilidade">
+                <div class="habilidades-header">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="habilidade">
+                <div class="habilidades-header">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="habilidade">
+                <div class="habilidades-header">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="habilidade">
+                <p><img src="imagens/developer-300.jpg" alt="Imagem"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao-contato" id="contato">
+        <div class="contato-wrappe">
+            <!--<div class="contato-left">
+
+            </div>--> <!--contato-left-->
+            <div class="contato-right">
+                <h1>Contato</h1>
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="field" id="nome">
+                        <label for="nome" class="field-label">Seu nome</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="field" id="email">
+                        <label for="email" class="field-label">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea class="field" id="mensagem"></textarea>
+                        <label for="mensagem" class="field-label">Mensagem</label>
+                    </div>
+                    <a href=mailto:joaoandrade1603@gmail.com?subject="link HTML" id="email">Enviar</a>
+                </form>
+            </div> <!--contato-right-->
+        </div> <!--contato-wrappe-->
+    </section> <!--sessao-contato-->
+
+    <section class="sessao-orcamento" id="orcamento">
+        <div class="orcamento-wrapper">
+            <h1>Orçamento</h1>
+            <form>
+                <label for="quantidade">Quantas páginas?</label>
+                <input type="number" min="1" name="quantidade" id="quantidade">
+                <label for="js">Precisa de script JS?</label>
+                <input type="checkbox" name="js" id="js">
+                <label>Layout</label>
+                <div class="group-layout">
+                    <div>
+                        <input type="radio" name="layout" id="layout-sim">
+                        <label for="layout-sim">Preciso de um Layout</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="layout" id="layout-nao">
+                        <label for="layout-nao">Já tenho o Layout</label>
+                    </div>
+                </div>
+                <label for="prazo">Prazo</label>
+                <input type="range" name="prazo" id="prazo" min="1" max="10">
+                <label id="preco">R$ 0,00</label>
+                <!--<button class="botao" type="submit">Enviar</button>-->
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>
+                Copyright &copy; 2022, João Paulo - Todos os direitos reservados
+            </p>
+            <div class="social-list">
+                <ul>
+                    <li><a href="https://www.instagram.com/joao_pauload/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-b2914822b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
